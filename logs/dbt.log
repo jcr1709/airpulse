@@ -1,0 +1,73 @@
+==================== 2026-06-10T14:44:35.546268Z | 019eb1fe-0654-72e1-9118-abd364490942 ====================
+14:44:35.546483 [info ]: Installing dbt project and profile setup
+14:44:35.622460 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+14:44:35.623367 [info ]: Success Project created successfully!
+14:44:35.623825 [info ]: Info Project name: jaffle_shop
+14:44:35.624211 [info ]: Info Project directory: jaffle_shop
+14:44:35.624590 [info ]: Info Setting up your profile...
+14:44:35.625326 [info ]: Info Creating new profile...
+14:45:00.939489 [info ]: No dbt_cloud.yml found - proceeding without cloud pre-population
+==================== 2026-06-10T14:45:31.414326Z | 019eb1fe-e092-7140-80cf-017d9a61fe37 ====================
+14:45:31.414483 [info ]: Installing dbt project and profile setup
+14:45:31.418057 [info ]: Warning Directory 'jaffle_shop' already exists, using 'jaffle_shop_1' instead
+14:45:31.476812 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+14:45:31.477507 [info ]: Success Project created successfully!
+14:45:31.477818 [info ]: Info Project name: jaffle_shop_1
+14:45:31.478047 [info ]: Info Project directory: jaffle_shop_1
+14:45:31.478485 [info ]: Info Setting up your profile...
+14:45:31.478791 [info ]: Info Creating new profile...
+14:45:33.900946 [info ]: No dbt_cloud.yml found - proceeding without cloud pre-population
+14:46:08.098589 [info ]: Success Profile written to C:\Users\jayac\.dbt\profiles.yml
+14:46:08.098921 [info ]: Validating profile inputs, adapters, and connection
+
+14:46:08.099171 [info ]: dbt-core 2.0.0-alpha.1
+14:46:08.099681 [info ]: Started loading project
+14:46:08.102199 [info ]: Loading ~/.dbt/profiles.yml
+14:46:08.110071 [info ]: Finished loading project [  0.01s]
+14:46:08.110289 [error]: [InvalidConfig (dbt1005)]: The 'postgres' adapter is not yet supported by dbt Fusion. Supported adapters: snowflake, bigquery, databricks, redshift
+14:46:08.294117 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' with 1 error [36.9s]
+[0m20:29:14.303623 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A01E317F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A01E3C1F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A01E3C0E50>]}
+
+
+============================== 20:29:14.319630 | 66dbce77-d0a7-4b39-9d53-2ef7e1697e2e ==============================
+[0m20:29:14.319630 [info ] [MainThread]: Running with dbt=1.11.11
+[0m20:29:14.319630 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\jayac\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init transform', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:29:14.361157 [debug] [MainThread]: Starter project path: C:\me\projects\airpulse\venv\Lib\site-packages\dbt\include\starter_project
+[0m20:29:14.446311 [info ] [MainThread]: 
+Your new dbt project "transform" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:29:14.446311 [info ] [MainThread]: Setting up your profile.
+[0m20:29:29.048382 [debug] [MainThread]: Command `dbt init` succeeded at 20:29:29.048382 after 14.85 seconds
+[0m20:29:29.048382 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A01F3C4F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0178A20D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A01F501590>]}
+[0m20:29:29.048382 [debug] [MainThread]: Flushing usage events
+[0m20:29:30.386961 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:39:00.331304 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB932B2C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB931D8BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB9434F990>]}
+
+
+============================== 21:39:00.342329 | 4da2f012-f7dd-44f5-95de-8e99e234d672 ==============================
+[0m21:39:00.342329 [info ] [MainThread]: Running with dbt=1.11.11
+[0m21:39:00.343971 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\jayac\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:39:00.343971 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\me\projects\airpulse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:39:00.343971 [debug] [MainThread]: Command `dbt run` failed at 21:39:00.343971 after 0.15 seconds
+[0m21:39:00.343971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB931F4AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB932B38D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB932B0E10>]}
+[0m21:39:00.343971 [debug] [MainThread]: Flushing usage events
+[0m21:39:01.617368 [debug] [MainThread]: An error was encountered while trying to flush usage events
