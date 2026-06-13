@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: stg_air_quality
+    description: "Staging model for air quality data"
+    columns:
+      - name: city
+        tests:
+          - not_null
+      - name: pollutant_id
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['SO2', 'NO2', 'OZONE', 'CO', 'PM2.5', 'PM10', 'NH3']
+
+  - name: mart_city_pollution
+    description: "City level pollution summary"
+    columns:
+      - name: city
+        tests:
+          - not_null
+      - name: avg_pollution
+        tests:
+          - not_null
