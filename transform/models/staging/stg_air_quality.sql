@@ -1,5 +1,5 @@
 with source as (
-    select * from read_csv_auto('C:/me/projects/airpulse/data/3b01bcb8-0b14-4abf-b6f2-c1bfd384ba69.csv', nullstr='NA')
+    select * from read_csv_auto('../data/3b01bcb8-0b14-4abf-b6f2-c1bfd384ba69.csv', nullstr='NA')
 ),
 
 renamed as (

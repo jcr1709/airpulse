@@ -360,3 +360,129 @@ SyntaxError: unterminated string literal (detected at line 22)
 [2026-06-23T03:07:44.837+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:07:44.836+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-06-23T03:07:44.865+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:07:44.864+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
 [2026-06-23T03:07:44.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.125 seconds
+[2026-06-23T03:08:15.280+0000] {processor.py:161} INFO - Started process (PID=2182) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:08:15.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:08:15.284+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:08:15.284+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:08:15.309+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:08:15.336+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:08:15.335+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:08:15.363+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:08:15.363+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:08:15.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.132 seconds
+[2026-06-23T03:08:45.720+0000] {processor.py:161} INFO - Started process (PID=2449) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:08:45.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:08:45.725+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:08:45.724+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:08:45.755+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:08:45.782+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:08:45.781+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:08:45.810+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:08:45.809+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:08:45.841+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.128 seconds
+[2026-06-23T03:09:16.151+0000] {processor.py:161} INFO - Started process (PID=2716) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:09:16.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:09:16.154+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:09:16.154+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:09:16.181+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:09:16.206+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:09:16.206+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:09:16.232+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:09:16.232+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:09:16.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.116 seconds
+[2026-06-23T03:09:46.364+0000] {processor.py:161} INFO - Started process (PID=2983) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:09:46.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:09:46.369+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:09:46.369+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:09:46.395+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:09:46.421+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:09:46.421+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:09:46.451+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:09:46.450+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:09:46.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.128 seconds
+[2026-06-23T03:10:17.013+0000] {processor.py:161} INFO - Started process (PID=3250) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:10:17.015+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:10:17.017+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:10:17.017+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:10:17.043+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:10:17.069+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:10:17.068+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:10:17.097+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:10:17.097+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:10:17.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.127 seconds
+[2026-06-23T03:10:47.379+0000] {processor.py:161} INFO - Started process (PID=3517) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:10:47.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:10:47.383+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:10:47.382+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:10:47.412+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:10:47.438+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:10:47.437+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:10:47.465+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:10:47.464+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:10:47.496+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.123 seconds
+[2026-06-23T03:11:17.877+0000] {processor.py:161} INFO - Started process (PID=3784) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:11:17.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:11:17.883+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:11:17.883+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:11:17.914+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:11:17.944+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:11:17.944+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:11:17.978+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:11:17.978+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:11:18.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.142 seconds
+[2026-06-23T03:11:48.447+0000] {processor.py:161} INFO - Started process (PID=4051) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:11:48.449+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:11:48.451+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:11:48.450+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:11:48.479+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:11:48.509+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:11:48.509+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:11:48.539+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:11:48.538+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:11:48.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.128 seconds
+[2026-06-23T03:12:18.716+0000] {processor.py:161} INFO - Started process (PID=4319) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:12:18.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:12:18.721+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:12:18.721+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:12:18.751+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:12:18.782+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:12:18.782+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:12:18.813+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:12:18.813+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:12:18.841+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.134 seconds
+[2026-06-23T03:12:48.985+0000] {processor.py:161} INFO - Started process (PID=4586) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:12:48.986+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:12:48.989+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:12:48.989+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:12:49.018+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:12:49.051+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:12:49.050+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:12:49.082+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:12:49.082+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:12:49.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.132 seconds
+[2026-06-23T03:13:19.374+0000] {processor.py:161} INFO - Started process (PID=4853) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:13:19.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:13:19.379+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:13:19.379+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:13:19.402+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:13:19.429+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:13:19.429+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:13:19.455+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:13:19.454+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:13:19.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.117 seconds
+[2026-06-23T03:13:49.705+0000] {processor.py:161} INFO - Started process (PID=5120) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:13:49.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:13:49.709+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:13:49.709+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:13:49.733+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:13:49.758+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:13:49.758+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:13:49.785+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:13:49.785+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:13:49.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.121 seconds
+[2026-06-23T03:14:20.317+0000] {processor.py:161} INFO - Started process (PID=5387) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:14:20.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:14:20.322+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:14:20.322+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:14:20.350+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:14:20.375+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:14:20.374+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:14:20.400+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:14:20.399+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:14:20.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.120 seconds
+[2026-06-23T03:14:50.716+0000] {processor.py:161} INFO - Started process (PID=5654) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:14:50.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:14:50.721+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:14:50.721+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:14:50.746+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:14:50.771+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:14:50.771+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:14:50.799+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:14:50.798+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:14:50.827+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.117 seconds
+[2026-06-23T03:15:21.018+0000] {processor.py:161} INFO - Started process (PID=5921) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:15:21.019+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:15:21.023+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:15:21.023+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:15:21.050+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:15:21.076+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:15:21.076+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:15:21.103+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:15:21.103+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:15:21.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.122 seconds
+[2026-06-23T03:15:51.315+0000] {processor.py:161} INFO - Started process (PID=6188) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:15:51.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:15:51.319+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:15:51.318+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:15:51.346+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:15:51.372+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:15:51.371+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:15:51.397+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:15:51.397+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:15:51.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.116 seconds
+[2026-06-23T03:16:21.687+0000] {processor.py:161} INFO - Started process (PID=6455) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:16:21.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:16:21.691+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:16:21.691+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:16:21.716+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:16:21.741+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:16:21.741+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:16:21.768+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:16:21.768+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:16:21.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.118 seconds
+[2026-06-23T03:16:52.007+0000] {processor.py:161} INFO - Started process (PID=6727) to work on /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:16:52.009+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airpulse_pipeline.py for tasks to queue
+[2026-06-23T03:16:52.012+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:16:52.011+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:16:52.039+0000] {processor.py:840} INFO - DAG(s) 'airpulse_pipeline' retrieved from /opt/airflow/dags/airpulse_pipeline.py
+[2026-06-23T03:16:52.064+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:16:52.064+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-06-23T03:16:52.089+0000] {logging_mixin.py:188} INFO - [2026-06-23T03:16:52.088+0000] {dag.py:3954} INFO - Setting next_dagrun for airpulse_pipeline to 2026-06-23 00:00:00+00:00, run_after=2026-06-24 00:00:00+00:00
+[2026-06-23T03:16:52.119+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airpulse_pipeline.py took 0.118 seconds

@@ -1,0 +1,26 @@
+jaffle_shop_1:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      port: 5432
+      database: de_project
+      schema: public
+      threads: 16
+      host: localhost
+      user: admin
+      password: admin
+
+transform:
+  outputs:
+    dev:
+      type: duckdb
+      path: dev.duckdb
+      threads: 1
+
+    prod:
+      type: duckdb
+      path: prod.duckdb
+      threads: 4
+
+  target: dev
